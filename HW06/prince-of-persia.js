@@ -1,4 +1,3 @@
-// Базовый класс Character
 class Character {
   constructor(name, health) {
     this.#name = name;

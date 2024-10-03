@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   root.innerHTML = `
+     <div class="center-of-cards">
         <div class="product-image-section">
             <div class="product-images">
                 <img src="${product.images[0]}" alt="${product.title}">
@@ -73,5 +74,6 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="#" class="add-to-cart">В корзину</a>
             <a href="#" class="buy-one-click">Купить в 1 клик</a>
         </div>
+     </div>
     `;
 });

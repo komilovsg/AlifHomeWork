@@ -15,6 +15,13 @@ body {
   flex-direction: row;
 }
 
+.center-of-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 30px;
+}
+
 .product-image-section {
   width: 60%;
 }
@@ -34,7 +41,7 @@ body {
   width: 150px;
   height: 150px;
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
 .product-details-section {
@@ -79,7 +86,7 @@ body {
 .add-to-cart,
 .buy-one-click {
   display: block;
-  width: 100%;
+  /* width: 95%; */
   padding: 15px;
   background-color: #ff4b4b;
   color: white;
